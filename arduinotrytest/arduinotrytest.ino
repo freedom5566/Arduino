@@ -57,14 +57,14 @@ void loop() {
 
 void GetWeigh()
 {
-  double sum0=0;
-  double sum1=0;
-  double a=0;
+  double sum0=0.0;
+  double sum1=0.0;
+  double a=0.0;
   for(int i=0;i<10;i++){
     sum0+=hx.read();
     sum1+=hx.bias_read();
   }
-  a=(sum1/10)-51;
+  a=(sum1/10.0)-51.0;
   //Serial.println("ks:"); 
   if(a<1){
     Serial.println("0");
