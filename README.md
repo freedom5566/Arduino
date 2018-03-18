@@ -38,3 +38,6 @@ Arduino
 - 編譯時code裡面不能有全形空白，想害人倒是可以加滿全型空白xD
 ***
 > 官網[Arduino123](https://www.arduino.cc/ "不要點我不要點我不要點我")
+[Arduino GitHub issues](https://github.com/arduino/Arduino/issues "超猛")
+裏面居然有將近6千個issues....找BUG專區XD
+
